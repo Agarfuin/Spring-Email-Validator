@@ -3,9 +3,9 @@ spring:
     activate:
       on-profile: test
   datasource:
-    url: jdbc:mysql://localhost:3306/email
-    username: root
-    password: selman172839456
+    url:
+    username:
+    password:
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -18,8 +18,8 @@ spring:
   mail:
     host: smtpout.secureserver.net
     port: 465
-    username: info@lightforms.co
-    password: Capstone&123
+    username:
+    password:
     protocol: smtp
     properties.mail.smtp:
       auth: true
